@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mã hóa và giải mã AES và RSA</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Mã hóa và giải mã AES và RSA</h1>
+
+        <h2>Mã hóa AES</h2>
+        <textarea id="aesInput" placeholder="Nhập văn bản cần mã hóa"></textarea>
+        <button onclick="encryptAES()">Mã hóa AES</button>
+        <p>Văn bản đã mã hóa AES: <span id="aesOutput"></span></p>
+
+        <textarea id="aesDecryptionInput" placeholder="Nhập văn bản cần giải mã"></textarea>
+        <button onclick="decryptAES()">Giải mã AES</button>
+        <p>Văn bản đã giải mã AES: <span id="aesDecryptionOutput"></span></p>
+
+        <h2>Mã hóa RSA</h2>
+        <textarea id="rsaInput" placeholder="Nhập văn bản cần mã hóa"></textarea>
+        <button onclick="encryptRSA()">Mã hóa RSA</button>
+        <p>Văn bản đã mã hóa RSA: <span id="rsaOutput"></span></p>
+
+        <textarea id="rsaDecryptionInput" placeholder="Nhập văn bản cần giải mã"></textarea>
+        <button onclick="decryptRSA()">Giải mã RSA</button>
+        <p>Văn bản đã giải mã RSA: <span id="rsaDecryptionOutput"></span></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script>
+        // Paste the JavaScript code here
+    </script>
+</body>
+</html>
